@@ -1,0 +1,19 @@
+.super-form-container {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .input-group {
+        display: flex;
+        gap: 15px;
+        width: 280px;
+
+        input {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+button {
+    border: 1px solid !important;
+}

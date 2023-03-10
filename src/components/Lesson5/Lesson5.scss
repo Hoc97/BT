@@ -1,0 +1,18 @@
+.lesson5-container {
+    padding: 50px;
+    display: flex;
+    gap: 50px;
+
+    .control, .uncontrol {
+        width: 50%;
+        min-height: 200px;
+
+        input {
+            margin-bottom: 10px;
+        }
+
+        button {
+            cursor: pointer;
+        }
+    }
+}
